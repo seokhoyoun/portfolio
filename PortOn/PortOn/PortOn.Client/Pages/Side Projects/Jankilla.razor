@@ -1,0 +1,17 @@
+﻿@page "/jankilla"
+@using MudBlazor
+@inject HttpClient Http
+
+<MudMarkdown Value="@_readmeText" />
+
+@code
+{
+    private string _readmeText = "Loading...";
+
+    protected override async Task OnInitializedAsync()
+    {
+        var url = "https://raw.githubusercontent.com/stone2on/jankilla/main/README.md";
+        _readmeText = await Http.GetStringAsync(url);
+    }
+}
+

@@ -49,3 +49,17 @@ h1:focus {
 .darker-border-checkbox.form-check-input {
     border-color: #929292;
 }
+
+.docs-code {
+    display: inline-block;
+    padding: 0 5px;
+    direction: ltr;
+    font-size: .85em;
+    font-weight: 900;
+    font-family: Consolas,"Liberation Mono",Menlo,Courier,monospace;
+    line-height: 1.4;
+    border-radius: 2px;
+    margin-right: 5px;
+    background-color: var(--mud-palette-secondary-hover);
+    -webkit-font-smoothing: subpixel-antialiased
+}
