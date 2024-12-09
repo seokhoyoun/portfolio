@@ -44,6 +44,7 @@ jobs:
   deploy-client:
     runs-on: windows-latest
     permissions:
+      id-token: write
       pages: write
       contents: read
       
