@@ -17,7 +17,7 @@
                    Style="text-transform:none">
             Portfolio
         </MudButton>
-        @* <MudText Typo="Typo.h5" Class="ml-3">Application</MudText> *@
+        <MudText Typo="Typo.h5" Class="ml-3">Application</MudText>
         <MudSpacer />
         <MudIconButton Icon="@(DarkLightModeButtonIcon)" Color="Color.Inherit" OnClick="@DarkModeToggle" />
         <MudIconButton Icon="@Icons.Custom.Brands.GitHub" Color="Color.Inherit" Href="https://github.com/seokhoyoun" />
@@ -43,11 +43,11 @@
         base.OnInitialized();
 
         _theme = new()
-            {
-                PaletteLight = _lightPalette,
-                PaletteDark = _darkPalette,
-                LayoutProperties = new LayoutProperties()
-            };
+        {
+            PaletteLight = _lightPalette,
+            PaletteDark = _darkPalette,
+            LayoutProperties = new LayoutProperties()
+        };
     }
 
     private readonly PaletteLight _lightPalette = new()
@@ -60,7 +60,7 @@
             GrayLighter = "#f9f9f9",
         };
 
-    private readonly PaletteDark _darkPalette = new()
+    private readonly PaletteDark _darkPalette = new PaletteDark()
         {
             Primary = "#7e6fff",
             Surface = "#1e1e2d",

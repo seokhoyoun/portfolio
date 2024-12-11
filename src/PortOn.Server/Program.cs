@@ -1,8 +1,6 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using MudBlazor.Services;
-using MudBlazor;
 using Microsoft.AspNetCore.SignalR;
 
 namespace PortOn.Server
@@ -27,9 +25,6 @@ namespace PortOn.Server
             builder.Services.AddSignalR();
 
             builder.Services.AddControllers();
-
-            builder.Services.AddMudServices();
-            builder.Services.AddMudMarkdownServices();
 
             builder.Services.AddHttpClient();
 

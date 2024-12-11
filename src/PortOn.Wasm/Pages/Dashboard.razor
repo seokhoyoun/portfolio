@@ -1,6 +1,7 @@
 ﻿@page "/"
 @using MudBlazor
 @using PortOn.Shared.Models
+@using System.Diagnostics
 @inject HttpClient Http
 @inject NavigationManager NavManager
 
@@ -89,9 +90,19 @@ Hideable="true">
 
     private List<DevelopmentProject> projects = new List<DevelopmentProject>();
 
-    // protected override async Task OnInitializedAsync()
-    // {
-    //     Uri uri = new Uri($"{NavManager.BaseUri}api/projects");
-    //     // projects = await Http.GetFromJsonAsync<List<DevelopmentProject>>(uri);
-    // }
+    protected override async Task OnInitializedAsync()
+    {
+        // Uri uri = new Uri($"{NavManager.BaseUri}api/projects");
+
+        try 
+        {
+            await Task.Delay(1000);
+            // string msg = await Http.GetStringAsync(uri);
+            // projects = await Http.GetFromJsonAsync<List<DevelopmentProject>>(uri);
+        }
+        catch (Exception ex)
+        {
+            Debug.WriteLine(ex.Message);
+        }
+    }
 }
