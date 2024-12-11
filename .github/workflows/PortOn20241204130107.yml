@@ -66,12 +66,12 @@ jobs:
       run: dotnet publish "${{ env.CLIENT_PROJECT_PATH }}" --configuration ${{ env.CONFIGURATION }} --no-build --output client-publish
     
     # GitHub Pages 배포를 위한 설정
-    - name: Change base-tag in index.html
-      run: |
-        $indexPath = "client-publish/wwwroot/index.html"
-        $content = Get-Content -Path $indexPath
-        $content = $content -replace '<base href="/"', '<base href="/portfolio/"'
-        $content | Set-Content -Path $indexPath
+    # - name: Change base-tag in index.html
+    #   run: |
+    #     $indexPath = "client-publish/wwwroot/index.html"
+    #     $content = Get-Content -Path $indexPath
+    #     $content = $content -replace '<base href="/"', '<base href="/portfolio/"'
+    #     $content | Set-Content -Path $indexPath
     
     # 404.html 페이지 생성 (GitHub Pages SPA 지원용)
     - name: Copy index.html to 404.html
