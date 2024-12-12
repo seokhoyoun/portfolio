@@ -13,12 +13,12 @@ namespace PortOn.Server
 
             builder.Services.AddCors(options =>
             {
-                options.AddDefaultPolicy(policy =>
+                options.AddPolicy("GitHubPagesPolicy", builder =>
                 {
-                    policy.WithOrigins("https://your-wasm-app.com") // TODO:: launchSettings.json에서 가져오도록 수정
-                            .AllowAnyHeader()
-                            .AllowAnyMethod()
-                            .AllowCredentials(); // SignalR에서 필요
+                    builder.WithOrigins("https://seokhoyoun.github.io") // GitHub Pages 도메인
+                           .AllowAnyMethod() // 모든 HTTP 메서드 (GET, POST, PUT, DELETE 등) 허용
+                           .AllowAnyHeader() // 모든 HTTP 헤더 허용
+                           .AllowCredentials(); // 쿠키 및 인증 헤더 허용 (필요한 경우)
                 });
             });
 
@@ -42,7 +42,7 @@ namespace PortOn.Server
                 app.UseHsts();
             }
 
-            app.UseCors();
+            app.UseCors("GitHubPagesPolicy");
             app.MapControllers();
             //app.MapHub<MyHub>("/hubs/myhub");
 

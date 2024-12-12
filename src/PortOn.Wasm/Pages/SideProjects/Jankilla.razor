@@ -1,8 +1,9 @@
 ﻿@page "/jankilla"
-@using MudBlazor
+@using Markdig
 @inject HttpClient Http
 
-<MudMarkdown Value="@_readmeText" />
+@* <MudMarkdown Value="@_readmeText" /> *@
+<MarkdownViewer MarkdownContent="@_readmeText" />
 
 @code
 {

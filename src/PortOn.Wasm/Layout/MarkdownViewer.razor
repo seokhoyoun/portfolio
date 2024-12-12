@@ -1,0 +1,27 @@
+﻿@page "/markdown-viewer"
+@using Markdig
+@inject IJSRuntime JSRuntime
+
+<div @ref="markdownDiv" class="markdown-body">
+    @((MarkupString)renderedHtml)
+</div>
+
+@code {
+    private ElementReference markdownDiv;
+    private string renderedHtml = string.Empty;
+
+    [Parameter]
+    public string MarkdownContent { get; set; } = string.Empty;
+
+    protected override void OnParametersSet()
+    {
+        if (!string.IsNullOrEmpty(MarkdownContent))
+        {
+            var pipeline = new MarkdownPipelineBuilder()
+                .UseAdvancedExtensions()
+                .Build();
+
+            renderedHtml = Markdown.ToHtml(MarkdownContent, pipeline);
+        }
+    }
+}

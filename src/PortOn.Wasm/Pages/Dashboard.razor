@@ -96,9 +96,9 @@ Hideable="true">
 
         try 
         {
-            await Task.Delay(1000);
-            // string msg = await Http.GetStringAsync(uri);
-            // projects = await Http.GetFromJsonAsync<List<DevelopmentProject>>(uri);
+            // await Task.Delay(1000);
+             // string msg = await Http.GetStringAsync(uri);
+             projects = await Http.GetFromJsonAsync<List<DevelopmentProject>>("/projects");
         }
         catch (Exception ex)
         {
