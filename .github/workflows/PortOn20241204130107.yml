@@ -5,7 +5,7 @@ on:
     - develop
 env:
   AZURE_WEBAPP_NAME: PortOn20241204130107
-  DOTNET_CORE_VERSION: 8.0.x
+  DOTNET_CORE_VERSION: 9.0.x
   SERVER_PROJECT_PATH: src/PortOn.Server/PortOn.Server.csproj
   CLIENT_PROJECT_PATH: src/PortOn.Wasm/PortOn.Wasm.csproj
   CONFIGURATION: Release
@@ -16,10 +16,10 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     
-    # - name: Setup .NET SDK
-    #   uses: actions/setup-dotnet@v4
-    #   with:
-    #     dotnet-version: ${{ env.DOTNET_CORE_VERSION }}
+    - name: Setup .NET SDK
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: ${{ env.DOTNET_CORE_VERSION }}
     
     - name: Restore Server
       run: dotnet restore "${{ env.SERVER_PROJECT_PATH }}"
@@ -51,10 +51,10 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     
-    # - name: Setup .NET SDK
-    #   uses: actions/setup-dotnet@v4
-    #   with:
-    #     dotnet-version: ${{ env.DOTNET_CORE_VERSION }}
+    - name: Setup .NET SDK
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: ${{ env.DOTNET_CORE_VERSION }}
     
     - name: Restore Client
       run: dotnet restore "${{ env.CLIENT_PROJECT_PATH }}"
