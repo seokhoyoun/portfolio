@@ -1,20 +1,12 @@
 ---
-name: The Movies Project
-tools: [C#, XML, WPF]
-image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
-description: This project has an individual showcase page, not just a direct link to the project site or repo. Now you have more space to describe your awesome project!
+name: "[LG PRI] RND COW 특성 검사 데모기"
+tools: ["C#", "WPF", "Ajin Module", "Pika-L(Camera)"]
+image:
+description: Wafer 특성 검사 데모 시스템 개발 및 PL 수행.
 ---
 
-# The Movies Project
-
-The Movies Project is something like **Netflix**, the only difference is that **it's not real**! It doesn't exist! I just created it to demonstrate how the **showcase** page looks like and how you can write whatever you want with full markdown support.
-
-![preview](https://www.sketchappsources.com/resources/source-image/we-were-soldiers-landing-page-dbruggisser.jpg)
-
-## Search Movies
-
-![search](https://www.sketchappsources.com/resources/source-image/microsoft-windows-10-virtual-keyboard-diogo-sousa.png)
-
-<p class="text-center">
-{% include elements/button.html link="https://github.com/yousinix/portfolYOU" text="Learn More" %}
-</p>
+## Overview
+- 기간: 2024.08 ~ 2024.12 (약 4개월)
+- 소속: 제이원소프트
+- 역할: PL, Chip 검사/제어 및 운영 파트
+- 주요 업무: 개발 및 운영
