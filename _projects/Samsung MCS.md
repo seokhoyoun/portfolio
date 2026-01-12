@@ -1,7 +1,7 @@
 ---
 name: "[삼성전자] MCS"
 tools: ["C#", "WPF", ".NET Framework", "PostgreSQL", "MongoDB"]
-image:
+image: https://dummyimage.com/1200x800/0f172a/ffffff&text=Samsung%20MCS
 description: 온양 사업장 MES 연동 기반 DRAM 물류 자동화 시스템 개발 및 운영.
 ---
 

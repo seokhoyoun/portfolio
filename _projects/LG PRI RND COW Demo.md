@@ -1,7 +1,7 @@
 ---
 name: "[LG PRI] RND COW 특성 검사 데모기"
 tools: ["C#", "WPF", "Ajin Module", "Pika-L(Camera)"]
-image:
+image: https://dummyimage.com/1200x800/111827/ffffff&text=LG%20PRI%20RND%20COW
 description: Wafer 특성 검사 데모 시스템 개발 및 PL 수행.
 ---
 

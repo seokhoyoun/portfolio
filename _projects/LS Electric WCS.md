@@ -1,7 +1,7 @@
 ---
 name: "[LS Electric] WCS"
 tools: ["EdgeHub", "JavaScript", "VisualWorX"]
-image:
+image: https://dummyimage.com/1200x800/1f2937/ffffff&text=LS%20Electric%20WCS
 description: 창고 관리 및 제어 WCS UI 파트 개발.
 ---
 
