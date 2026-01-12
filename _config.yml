@@ -4,8 +4,9 @@ description         : >-
                       I turn coffee :coffee: into code,
                       use tabs over spaces
                       and never broke production.
-baseurl             : "/portfolYOU"            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : yousinix/portfolYOU      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+baseurl             : "/portfolio"             # Project site base path for https://seokhoyoun.github.io/portfolio
+repository          : seokhoyoun/portfolio     # Repo for GitHub Pages remote projects
+url                 : "https://seokhoyoun.github.io"
 remote_theme        : yousinix/portfolYOU
 open_new_tab        : false                    # Opens external URLs in new tab (works for posts, projects and navbar only)
 
@@ -24,8 +25,8 @@ nav_exclude:                                            # The following paths ar
 
 ### Author Info ###
 author:
-  name              : John Doe
-  image             : https://i.imgur.com/uyDNQnn.jpg
+  name              : Seokho Youn
+  image             : "https://avatars.githubusercontent.com/seokhoyoun"
   behance           : your_username
 # dribbble          : your_username
   email             : username@domain.com
