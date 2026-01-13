@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Projects
 permalink: /projects/
 weight: 1
@@ -44,6 +44,7 @@ weight: 1
 </style>
 
 <div class="project-list">
+  <p>총 {{ site.projects | size }}개 프로젝트</p>
   {% assign grouped_projects = site.projects | group_by: "company" | sort: "name" %}
   {% for group in grouped_projects %}
     <div class="project-group">
