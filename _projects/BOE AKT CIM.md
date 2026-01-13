@@ -1,7 +1,6 @@
----
+﻿---
 name: "[BOE] AKT CIM 프로젝트"
 tools: ["C#", "WinForms", "MS-SQL", "DevExpress", "HSMS", "SECS-II"]
-image: https://dummyimage.com/1200x800/0f172a/ffffff&text=BOE%20AKT%20CIM
 description: 디스플레이 공정과 AKT 상위 시스템 연동을 위한 미들웨어 S/W 개발.
 ---
 

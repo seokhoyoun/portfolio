@@ -1,7 +1,6 @@
----
+﻿---
 name: "[원익 PNE] IT 시스템"
 tools: ["C#", "WinForms", "MS-SQL", ".NET Core", "EF Core", "REST API"]
-image: https://dummyimage.com/1200x800/111827/ffffff&text=WONIK%20PNE%20IT
 description: 2차전지 활성화/충방전 공정 관리 IT 시스템 구축.
 ---
 

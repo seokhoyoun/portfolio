@@ -1,7 +1,6 @@
----
+﻿---
 name: "[현대모비스] EOL 충방전 검사 시스템"
 tools: ["C#", "WPF", "CAN", "Serial"]
-image: https://dummyimage.com/1200x800/0b1220/ffffff&text=Hyundai%20Mobis%20EOL
 description: 2차전지 양산 라인 EOL 공정 검사 S/W 유지보수 및 셋업.
 ---
 

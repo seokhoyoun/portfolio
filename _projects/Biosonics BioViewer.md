@@ -1,7 +1,6 @@
----
+﻿---
 name: "[바이오소닉스] BioViewer"
 tools: ["C#", "WinForms", "PalmSens SDK", "OxyPlot"]
-image: https://dummyimage.com/1200x800/0b1220/ffffff&text=BioViewer
 description: 센서 데이터 차트 표현 및 분석 관리용 의료 S/W 개발.
 ---
 

@@ -8,7 +8,6 @@ Live site: https://seokhoyoun.github.io/portfolio
 - Home: /portfolio/
 - About: /portfolio/about/
 - Projects: /portfolio/projects/
-- Blog: /portfolio/blog/
 
 ## Local development
 ```bash
