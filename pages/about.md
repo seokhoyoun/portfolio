@@ -7,8 +7,8 @@ weight: 3
 
 # **About Me**
 
-Hi I am **{{ site.author.name }}** :wave:,<br>
-I build software and enjoy turning ideas into products with clean, maintainable code.
+안녕하세요. 윤석호입니다.<br>
+C# 기반 공장 자동화 소프트웨어 개발을 중심으로 경험을 쌓았고, 물류·제조 시스템을 구축해왔습니다. 실수를 방지하는 코드 작성을 1원칙으로 두고, 안정적인 운영과 유지보수성을 고려해 개발합니다.
 
 **Quick Links**
 - [Home]({{ site.baseurl }}/)
