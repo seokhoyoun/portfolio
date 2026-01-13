@@ -1,5 +1,8 @@
-﻿---
+---
 name: "[LG PRI] RND COW 특성 검사 데모기"
+title: "[LG PRI] RND COW 특성 검사 데모기"
+company: "제이원소프트"
+layout: page
 tools: ["C#", "WPF", "Ajin Module", "Pika-L(Camera)"]
 description: Wafer 특성 검사 데모 시스템 개발 및 PL 수행.
 ---

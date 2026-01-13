@@ -1,5 +1,8 @@
-﻿---
+---
 name: "[바이옥소닉스] BioViewer"
+title: "[바이옥소닉스] BioViewer"
+company: "제이원소프트"
+layout: page
 tools: ["C#", "WinForms", "PalmSens SDK", "OxyPlot"]
 description: 센서 데이터 차트 표현 및 분석 관리용 의료 S/W 개발.
 ---

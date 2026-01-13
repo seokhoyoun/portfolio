@@ -1,5 +1,8 @@
-﻿---
+---
 name: "[LG 에너지솔루션] BPA 가스검사기"
+title: "[LG 에너지솔루션] BPA 가스검사기"
+company: "피닉슨컨트롤스"
+layout: page
 tools: ["C#", "WPF", "Serial"]
 description: 2차전지 양산 공정 내 가스 검사 S/W 개발.
 ---

@@ -1,5 +1,8 @@
-﻿---
+---
 name: "[LG PRI] LG 디스플레이 라인 전후 공정 연계"
+title: "[LG PRI] LG 디스플레이 라인 전후 공정 연계"
+company: "제이원소프트"
+layout: page
 tools: ["C#", "WinForms", "MS-SQL", "DevExpress"]
 description: 디스플레이 공정별 Defect 데이터 수집 및 Parser 툴 개발.
 ---

@@ -1,5 +1,8 @@
-﻿---
+---
 name: "[현대모비스] EOL 충방전 검사 시스템"
+title: "[현대모비스] EOL 충방전 검사 시스템"
+company: "피닉슨컨트롤스"
+layout: page
 tools: ["C#", "WPF", "CAN", "Serial"]
 description: 2차전지 양산 라인 EOL 공정 검사 S/W 유지보수 및 셋업.
 ---

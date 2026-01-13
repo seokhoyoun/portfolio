@@ -1,5 +1,8 @@
-﻿---
+---
 name: "[LS Electric] WCS"
+title: "[LS Electric] WCS"
+company: "제이원소프트"
+layout: page
 tools: ["EdgeHub", "JavaScript", "VisualWorX"]
 description: 창고 관리 및 제어 WCS UI 파트 개발.
 ---

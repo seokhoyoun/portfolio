@@ -1,5 +1,8 @@
-﻿---
+---
 name: "[삼성전자] MCS"
+title: "[삼성전자] MCS"
+company: "제이원소프트"
+layout: page
 tools: ["C#", "WPF", ".NET Framework", "PostgreSQL", "MongoDB"]
 description: 온양 사업장 MES 연동 기반 DRAM 물류 자동화 시스템 개발 및 운영.
 ---
