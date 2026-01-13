@@ -13,7 +13,6 @@ I build software and enjoy turning ideas into products with clean, maintainable 
 **Quick Links**
 - [Home]({{ site.baseurl }}/)
 - [Projects]({{ site.baseurl }}/projects/)
-- [Blog]({{ site.baseurl }}/blog/)
 - [GitHub](https://github.com/seokhoyoun)
 
 <div class="row">
