@@ -5,4 +5,4 @@ permalink: /blog/
 weight: 2
 ---
 
-외부 블로그 링크는 준비 중입니다.
+블로그는 외부 링크로 운영합니다: https://seokhoyoun.github.io/herald/
