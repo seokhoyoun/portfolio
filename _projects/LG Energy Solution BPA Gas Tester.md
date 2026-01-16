@@ -1,6 +1,6 @@
 ---
-name: "[L사] BPA 가스검사기"
-title: "[L사] BPA 가스검사기"
+name: "BPA 가스검사기"
+title: "BPA 가스검사기"
 company: "피닉슨컨트롤스"
 layout: page
 tools: ["C#", "WPF", "Serial"]
@@ -11,6 +11,7 @@ description: 2차전지 양산 공정 내 가스 검사 공정 S/W 개발.
 
 ## Overview
 - 기간: 2019.07 ~ 2020.09
+- 고객사: LG 에너지솔루션
 - 소속: 피닉슨컨트롤스
 - 역할: 개발
 - 주요 업무: 장비 연동 및 검사 UI 구현

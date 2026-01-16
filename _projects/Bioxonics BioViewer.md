@@ -1,6 +1,6 @@
 ---
-name: "[B사] BioViewer"
-title: "[B사] BioViewer"
+name: "BioViewer"
+title: "BioViewer"
 company: "제이원소프트"
 layout: page
 tools: ["C#", "WinForms", "PalmSens SDK", "OxyPlot"]
@@ -153,6 +153,7 @@ BioViewer는 다음과 같은 기능 모듈로 구성됩니다.
 
 ## Overview
 - 기간: 2024.05 ~
+- 고객사: B사
 - 소속: 제이원소프트
 - 역할: 개발 및 유지보수
 - 주요 업무: 센서 데이터 시각화/분석 기능 구현

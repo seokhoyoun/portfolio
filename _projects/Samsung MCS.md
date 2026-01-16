@@ -1,6 +1,6 @@
 ---
-name: "[S사] MCS"
-title: "[S사] MCS"
+name: "MCS"
+title: "MCS"
 company: "제이원소프트"
 layout: page
 tools: ["C#", "WPF", ".NET Framework", "PostgreSQL", "MongoDB"]
@@ -16,6 +16,7 @@ description: 사업장 내 MES 연동 기반 DRAM 물류 자동화 시스템 개
 ## 1. 프로젝트 개요
 본 프로젝트는 S사의 DRAM 검사 공정에서 발생하는 자재 이송 및 검사 작업을 자동화하기 위해  
 Material Control System(MCS)을 개발 및 운영한 프로젝트입니다.
+고객사: S사
 
 MCS는 공정 전반의 작업 흐름을 통합적으로 관리하는 상위 제어 시스템으로서,  
 Lot 단위의 작업 계획 수립, 설비 상태 판단, 물류 흐름 제어를 담당합니다.  
