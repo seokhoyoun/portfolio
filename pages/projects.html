@@ -29,6 +29,13 @@ weight: 1
     font-size: 18px;
     font-weight: 600;
   }
+  .project-date {
+    margin-left: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #6b7280;
+    white-space: nowrap;
+  }
   .project-title a {
     color: inherit;
     text-decoration: none;
@@ -54,6 +61,11 @@ weight: 1
         <div class="project-item">
           <h3 class="project-title">
             <a href="{{ project.url | relative_url }}">{{ project.name }}</a>
+            {% if project.period_start %}
+              <span class="project-date">
+                {{ project.period_start }}{% if project.period_end %} ~ {{ project.period_end }}{% else %} ~ 현재{% endif %}
+              </span>
+            {% endif %}
           </h3>
           {% if project.description %}
             <p class="project-desc">{{ project.description }}</p>

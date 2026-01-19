@@ -4,6 +4,7 @@ title: "BioViewer"
 company: "제이원소프트"
 layout: page
 tools: ["C#", "WinForms", "PalmSens SDK", "OxyPlot"]
+period_start: "2024.05"
 description: 센서 데이터 차트 표현 및 분석 관리용 의료 S/W 개발.
 ---
 

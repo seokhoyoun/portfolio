@@ -57,6 +57,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
+  side_projects:
+    output: true
+    permalink: /side-projects/:name
 
 
 ### Disqus ###
@@ -86,6 +89,11 @@ defaults:
   - scope:
       path: ""
       type: "projects"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "side_projects"
     values:
       layout: "page"
   - scope:

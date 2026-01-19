@@ -4,6 +4,8 @@ title: "AKT CIM 프로젝트"
 company: "제이원소프트"
 layout: page
 tools: ["C#", "WinForms", "MS-SQL", "DevExpress", "HSMS", "SECS-II"]
+period_start: "2021.05"
+period_end: "2021.08"
 description: 디스플레이 공정과 AKT 상위 시스템 연동을 위한 미들웨어 S/W 개발.
 ---
 
