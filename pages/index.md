@@ -70,7 +70,7 @@ permalink: /
 
 <div class="home-wrap">
   <section class="home-hero">
-    <img src="{{ site.author.image }}" alt="{{ site.author.name }}">
+    <img src="{{ site.baseurl }}/assets/images/윤석호0501web.jpg" alt="{{ site.author.name }}">
     <div>
       <h1>{{ site.author.name }}</h1>
       <p>현장 중심 SI 개발 경험을 바탕으로 물류/제조 시스템을 구축하는 C# 개발자입니다.</p>
