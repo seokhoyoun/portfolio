@@ -1,10 +1,13 @@
-﻿---
+---
 name: "원익 PNE IT 시스템"
 title: "원익 PNE IT 시스템"
 company: "제이원소프트"
 layout: page
 tools: ["C#", "WinForms", "MS-SQL", ".NET Core", "EF Core", "REST API"]
 description: 2차전지 활성화/충방전 공정 관리 IT 시스템 구축.
+date: "2022-06-01"
+featured: true
+featured_order: 3
 ---
 
 ![원익 PNE IT 시스템 UI]({{ "/assets/images/projects/wonik-pne-it-system.png" | relative_url }})

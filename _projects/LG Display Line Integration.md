@@ -4,7 +4,10 @@ title: "LG PRI 디스플레이 라인 전후 공정 연계"
 company: "제이원소프트"
 layout: page
 tools: ["C#", "WinForms", "MS-SQL", "DevExpress"]
-period_start: "2022.01"
+period_start: "2022.01"
+date: "2022-01-01"
+featured: true
+featured_order: 4
 period_end: "2022.09"
 description: 디스플레이 공정별 Defect 데이터 수집 및 Parser 툴 개발.
 ---

@@ -4,12 +4,13 @@ title: "LG 화학 BPA 가스검사기"
 company: "피닉슨컨트롤스"
 layout: page
 tools: ["C#", "WPF", "Serial"]
-period_start: "2019.07"
+period_start: "2019.07"
+date: "2019-07-01"
 period_end: "2020.09"
 description: 2차전지 양산 공정 내 가스 검사 공정 S/W 개발.
 ---
 
-![BPA 가스검사기 UI](/assets/images/projects/lg-energy-bpa-gas-tester.png)
+![BPA 가스검사기 UI]({{ "/assets/images/projects/lg-energy-bpa-gas-tester.png" | relative_url }})
 
 ## Overview
 - 기간: 2019.07 ~ 2020.09

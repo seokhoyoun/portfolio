@@ -92,7 +92,7 @@ permalink: /
 
   <section class="home-section">
     <h2>Projects</h2>
-    {% assign items = site.projects | sort: "date" | reverse | slice: 0, 4 %}
+    {% assign items = site.projects | where: "featured", true | sort: "featured_order" %}
     <div class="home-grid">
       {% for project in items %}
         <div class="home-card">
