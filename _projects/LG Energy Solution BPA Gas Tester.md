@@ -1,6 +1,6 @@
 ---
-name: "BPA 가스검사기"
-title: "BPA 가스검사기"
+name: "LG 화학 BPA 가스검사기"
+title: "LG 화학 BPA 가스검사기"
 company: "피닉슨컨트롤스"
 layout: page
 tools: ["C#", "WPF", "Serial"]

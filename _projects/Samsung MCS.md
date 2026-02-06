@@ -1,6 +1,6 @@
 ---
-name: "MCS"
-title: "MCS"
+name: "삼성전자 MCS"
+title: "삼성전자 MCS"
 company: "제이원소프트"
 layout: page
 tools: ["C#", "WPF", ".NET Framework", "PostgreSQL", "MongoDB"]
@@ -17,14 +17,14 @@ description: 사업장 내 MES 연동 기반 DRAM 물류 자동화 시스템 개
 ## 1. 프로젝트 개요
 본 프로젝트는 S사의 DRAM 검사 공정에서 발생하는 자재 이송 및 검사 작업을 자동화하기 위해  
 Material Control System(MCS)을 개발 및 운영한 프로젝트입니다.
-고객사: S사
+고객사: S전자
 
 MCS는 공정 전반의 작업 흐름을 통합적으로 관리하는 상위 제어 시스템으로서,  
 Lot 단위의 작업 계획 수립, 설비 상태 판단, 물류 흐름 제어를 담당합니다.  
 실제 물리 작업은 하위 제어 시스템인 ACS와 AMR(자율이동로봇)이 수행하며,  
 본 시스템은 계획과 실행의 역할을 명확히 분리하여 안정적인 생산 운영을 목표로 설계되었습니다.
 
-![Samsung MCS screenshot 1]({{ "/assets/images/projects/samsung-mcs-1.png" | relative_url }})
+![Samsung MCS screenshot 2]({{ "/assets/images/projects/samsung-mcs-2.png" | relative_url }})
 
 ---
 
@@ -66,7 +66,6 @@ Lot 단위의 작업 계획 수립, 설비 상태 판단, 물류 흐름 제어�
 - Set은 실제 검사가 수행되는 단위 설비이며,  
   Slot은 Memory가 장착되는 위치를 의미합니다.
 
-![Samsung MCS screenshot 2]({{ "/assets/images/projects/samsung-mcs-2.png" | relative_url }})
 ![Samsung MCS screenshot 3]({{ "/assets/images/projects/samsung-mcs-3.png" | relative_url }})
 ---
 
@@ -99,6 +98,8 @@ ExecutionPlan 단위로 ACS에 작업을 지시합니다.
 ---
 
 ## 5. MCS 내부 구조 및 주요 역할
+
+![Samsung MCS screenshot 1]({{ "/assets/images/projects/samsung-mcs-1.png" | relative_url }})
 
 ### 주요 기능
 - Lot 및 LotStep 생애주기 관리

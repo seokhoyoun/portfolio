@@ -1,6 +1,6 @@
 ---
-name: "디스플레이 라인 전후 공정 연계"
-title: "디스플레이 라인 전후 공정 연계"
+name: "LG PRI 디스플레이 라인 전후 공정 연계"
+title: "LG PRI 디스플레이 라인 전후 공정 연계"
 company: "제이원소프트"
 layout: page
 tools: ["C#", "WinForms", "MS-SQL", "DevExpress"]

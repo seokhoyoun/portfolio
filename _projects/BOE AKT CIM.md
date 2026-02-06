@@ -1,6 +1,6 @@
 ---
-name: "AKT CIM 프로젝트"
-title: "AKT CIM 프로젝트"
+name: "BOE AKT CIM 프로젝트"
+title: "BOE AKT CIM 프로젝트"
 company: "제이원소프트"
 layout: page
 tools: ["C#", "WinForms", "MS-SQL", "DevExpress", "HSMS", "SECS-II"]

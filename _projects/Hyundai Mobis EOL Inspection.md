@@ -1,6 +1,6 @@
 ---
-name: "EOL 충방전 검사 시스템"
-title: "EOL 충방전 검사 시스템"
+name: "현대 모비스 EOL 충방전 검사 시스템"
+title: "현대 모비스 EOL 충방전 검사 시스템"
 company: "피닉슨컨트롤스"
 layout: page
 tools: ["C#", "WPF", "CAN", "Serial"]

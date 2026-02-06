@@ -1,6 +1,6 @@
 ---
-name: "RND COW 특성 검사 데모기"
-title: "RND COW 특성 검사 데모기"
+name: "LG PRI RND COW 특성 검사 데모기"
+title: "LG PRI RND COW 특성 검사 데모기"
 company: "제이원소프트"
 layout: page
 tools: ["C#", "WPF", "Ajin Module", "Pika-L(Camera)"]

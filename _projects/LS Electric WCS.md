@@ -1,12 +1,12 @@
 ---
-name: "WCS"
-title: "WCS"
+name: "LS Electric WCS Demo"
+title: "LS Electric WCS Demo"
 company: "제이원소프트"
 layout: page
 tools: ["EdgeHub", "JavaScript", "VisualWorX"]
 period_start: "2023.10"
 period_end: "2024.03"
-description: 창고 관리 및 제어 WCS UI 파트 개발.
+description: 창고 관리 데모 프로그램 제어 및 WCS UI 파트 개발.
 ---
 
 ## Overview

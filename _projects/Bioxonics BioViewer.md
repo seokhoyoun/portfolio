@@ -1,6 +1,6 @@
 ---
-name: "BioViewer"
-title: "BioViewer"
+name: "바이오소닉스 BioViewer"
+title: "바이오소닉스 BioViewer"
 company: "제이원소프트"
 layout: page
 tools: ["C#", "WinForms", "PalmSens SDK", "OxyPlot"]
